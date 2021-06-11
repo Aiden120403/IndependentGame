@@ -48,7 +48,7 @@ public class PlayerCode : MonoBehaviour
         myRigidBody.velocity = playerVelocity;
 
         bool playerHorizontalSpeed = Mathf.Abs(myRigidBody.velocity.x) > Mathf.Epsilon;
-        myAnimator.SetBool("Walking", playerHorizontalSpeed);
+        myAnimator.SetBool("Run", playerHorizontalSpeed);
     }
 
     private void Jump()
