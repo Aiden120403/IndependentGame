@@ -15,7 +15,7 @@ TagManager:
   - Foreground
   - 'Player '
   - Enemy
-  - 
+  - interactbles
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Enemy
     uniqueID: 4292524979
+    locked: 0
+  - name: interactables
+    uniqueID: 1071583875
     locked: 0
